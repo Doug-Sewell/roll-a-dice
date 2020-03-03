@@ -1,0 +1,70 @@
+:root {
+    font-size:20px;
+}
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-color: #200F21;
+}
+
+body{
+    height:100vh;
+    width:100vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;;
+}
+
+.container {
+    position:relative;
+    color:#5a3d5c;
+    font-weight:bold;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.frost {
+    background-color:white;
+    height:100%;
+    width:110%;
+    position:absolute;
+    z-index:-1;
+    opacity:0.5;
+    border-radius: 0.5rem;
+    padding:0.5rem;
+}
+
+.instructions {
+    margin-top:1rem;
+    text-align:center;
+}
+
+#dice-text {
+    width:3rem;
+    background-color: #382039;
+    color:#FFF;
+    border:none;
+    border-radius:0.5rem;
+    height:1.5rem;
+    margin: 1rem 0 1rem 0;
+}
+
+.button {
+    background-color:#f638dc;
+    padding:0.5rem;
+    border-radius:0.25rem;
+    margin-bottom:1rem;
+    text-decoration:none;
+    box-shadow:0.1rem 0.1rem 0.1rem;
+}
+
+.button:link {
+    color:#382039;
+}
